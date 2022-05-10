@@ -7,6 +7,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bc"
+    },
+    {
+      "name": "TestBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_block"
     }
   ],
   "variable_elements": [],
@@ -14,6 +22,7 @@
   "language_map": {
     "en_us": {
       "entity.themod.bc": "BC",
+      "block.themod.test_block": "Test Block",
       "item.themod.bc_spawn_egg": "BC Spawn Egg"
     }
   },

@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.themod.init.ThemodModItems;
 import net.mcreator.themod.init.ThemodModEntities;
+import net.mcreator.themod.init.ThemodModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,7 +46,7 @@ public class ThemodMod {
 	public ThemodMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		ThemodModBlocks.REGISTRY.register(bus);
 		ThemodModItems.REGISTRY.register(bus);
 		ThemodModEntities.REGISTRY.register(bus);
 

@@ -1,1 +1,4 @@
-{}
+{
+  "entity.themod.bc": "BC",
+  "item.themod.bc_spawn_egg": "BC Spawn Egg"
+}

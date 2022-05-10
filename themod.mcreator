@@ -1,9 +1,21 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BC",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bc"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "entity.themod.bc": "BC",
+      "item.themod.bc_spawn_egg": "BC Spawn Egg"
+    }
   },
   "foldersRoot": {
     "name": "~",

@@ -26,6 +26,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.themod.init.ThemodModItems;
+import net.mcreator.themod.init.ThemodModEntities;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -42,6 +45,9 @@ public class ThemodMod {
 	public ThemodMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		ThemodModItems.REGISTRY.register(bus);
+		ThemodModEntities.REGISTRY.register(bus);
 
 	}
 

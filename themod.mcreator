@@ -23,15 +23,68 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "paeonia"
+    },
+    {
+      "name": "RedRose",
+      "type": "plant",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_rose"
+    },
+    {
+      "name": "BlueRose",
+      "type": "plant",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_rose"
+    },
+    {
+      "name": "Buttercup",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttercup"
+    },
+    {
+      "name": "OpeningPaeonia",
+      "type": "plant",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opening_paeonia"
+    },
+    {
+      "name": "PinkDaisy",
+      "type": "plant",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_daisy"
+    },
+    {
+      "name": "Test",
+      "type": "particle",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.themod.buttercup": "Buttercup",
       "entity.themod.bc": "BC",
       "block.themod.test_block": "Test Block",
+      "block.themod.opening_paeonia": "Opening Paeonia",
       "block.themod.paeonia": "Paeonia",
+      "block.themod.blue_rose": "Blue Rose",
+      "block.themod.pink_daisy": "Pink Daisy",
+      "block.themod.red_rose": "Red Rose",
       "item.themod.bc_spawn_egg": "BC Spawn Egg"
     }
   },

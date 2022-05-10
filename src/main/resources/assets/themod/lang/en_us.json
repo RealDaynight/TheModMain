@@ -1,6 +1,11 @@
 {
+  "block.themod.buttercup": "Buttercup",
   "entity.themod.bc": "BC",
   "block.themod.test_block": "Test Block",
+  "block.themod.opening_paeonia": "Opening Paeonia",
   "block.themod.paeonia": "Paeonia",
+  "block.themod.blue_rose": "Blue Rose",
+  "block.themod.pink_daisy": "Pink Daisy",
+  "block.themod.red_rose": "Red Rose",
   "item.themod.bc_spawn_egg": "BC Spawn Egg"
 }

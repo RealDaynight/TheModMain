@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "themod:blocks/pinkdaisy",
+    "particle": "themod:blocks/pinkdaisy"
+  }
+}

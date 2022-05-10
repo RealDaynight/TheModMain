@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.themod.init.ThemodModParticleTypes;
 import net.mcreator.themod.init.ThemodModItems;
 import net.mcreator.themod.init.ThemodModFeatures;
 import net.mcreator.themod.init.ThemodModEntities;
@@ -53,6 +54,7 @@ public class ThemodMod {
 
 		ThemodModFeatures.REGISTRY.register(bus);
 
+		ThemodModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

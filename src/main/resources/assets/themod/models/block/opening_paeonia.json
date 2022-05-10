@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "themod:blocks/openingpaeonia",
+    "particle": "themod:blocks/openingpaeonia"
+  }
+}

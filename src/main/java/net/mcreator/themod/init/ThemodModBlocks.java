@@ -14,7 +14,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.themod.block.TestBlockBlock;
 import net.mcreator.themod.block.RedRoseBlock;
 import net.mcreator.themod.block.PinkDaisyBlock;
 import net.mcreator.themod.block.PaeoniaBlock;
@@ -25,7 +24,6 @@ import net.mcreator.themod.ThemodMod;
 
 public class ThemodModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ThemodMod.MODID);
-	public static final RegistryObject<Block> TEST_BLOCK = REGISTRY.register("test_block", () -> new TestBlockBlock());
 	public static final RegistryObject<Block> PAEONIA = REGISTRY.register("paeonia", () -> new PaeoniaBlock());
 	public static final RegistryObject<Block> RED_ROSE = REGISTRY.register("red_rose", () -> new RedRoseBlock());
 	public static final RegistryObject<Block> BLUE_ROSE = REGISTRY.register("blue_rose", () -> new BlueRoseBlock());

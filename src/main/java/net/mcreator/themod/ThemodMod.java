@@ -26,10 +26,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.themod.init.ThemodModParticleTypes;
 import net.mcreator.themod.init.ThemodModItems;
 import net.mcreator.themod.init.ThemodModFeatures;
-import net.mcreator.themod.init.ThemodModEntities;
 import net.mcreator.themod.init.ThemodModBlocks;
 
 import java.util.function.Supplier;
@@ -50,11 +48,9 @@ public class ThemodMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		ThemodModBlocks.REGISTRY.register(bus);
 		ThemodModItems.REGISTRY.register(bus);
-		ThemodModEntities.REGISTRY.register(bus);
 
 		ThemodModFeatures.REGISTRY.register(bus);
 
-		ThemodModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

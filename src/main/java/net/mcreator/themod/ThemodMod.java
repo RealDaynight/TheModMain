@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.themod.init.ThemodModItems;
+import net.mcreator.themod.init.ThemodModFeatures;
 import net.mcreator.themod.init.ThemodModEntities;
 import net.mcreator.themod.init.ThemodModBlocks;
 
@@ -49,6 +50,8 @@ public class ThemodMod {
 		ThemodModBlocks.REGISTRY.register(bus);
 		ThemodModItems.REGISTRY.register(bus);
 		ThemodModEntities.REGISTRY.register(bus);
+
+		ThemodModFeatures.REGISTRY.register(bus);
 
 	}
 

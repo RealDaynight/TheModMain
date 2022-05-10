@@ -21,6 +21,7 @@ public class ThemodModItems {
 	public static final RegistryObject<Item> BC = REGISTRY.register("bc_spawn_egg",
 			() -> new ForgeSpawnEggItem(ThemodModEntities.BC, -3407872, -6684775, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> TEST_BLOCK = block(ThemodModBlocks.TEST_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PAEONIA = block(ThemodModBlocks.PAEONIA, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

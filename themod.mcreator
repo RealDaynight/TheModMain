@@ -15,6 +15,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_block"
+    },
+    {
+      "name": "Paeonia",
+      "type": "plant",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paeonia"
     }
   ],
   "variable_elements": [],
@@ -23,6 +31,7 @@
     "en_us": {
       "entity.themod.bc": "BC",
       "block.themod.test_block": "Test Block",
+      "block.themod.paeonia": "Paeonia",
       "item.themod.bc_spawn_egg": "BC Spawn Egg"
     }
   },

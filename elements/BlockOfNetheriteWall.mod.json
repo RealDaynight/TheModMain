@@ -34,7 +34,9 @@
       }
     ],
     "name": "Block Of Netherite Wall",
-    "specialInfo": [],
+    "specialInfo": [
+      "This item is currently broken and uncraftable."
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "themod:block/block_of_netherite_slab"
+    },
+    "type=top": {
+      "model": "themod:block/block_of_netherite_slab_top"
+    },
+    "type=double": {
+      "model": "themod:block/block_of_netherite_slab_full"
+    }
+  }
+}

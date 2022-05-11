@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.themod.init.ThemodModTabs;
 import net.mcreator.themod.init.ThemodModItems;
 import net.mcreator.themod.init.ThemodModFeatures;
 import net.mcreator.themod.init.ThemodModBlocks;
@@ -44,7 +45,7 @@ public class ThemodMod {
 	private static int messageID = 0;
 
 	public ThemodMod() {
-
+		ThemodModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		ThemodModBlocks.REGISTRY.register(bus);
 		ThemodModItems.REGISTRY.register(bus);

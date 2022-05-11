@@ -20,6 +20,13 @@ import net.mcreator.themod.block.PaeoniaBlock;
 import net.mcreator.themod.block.OpeningPaeoniaBlock;
 import net.mcreator.themod.block.ButtercupBlock;
 import net.mcreator.themod.block.BlueRoseBlock;
+import net.mcreator.themod.block.BlockOfNetheriteWallBlock;
+import net.mcreator.themod.block.BlockOfNetheriteStairsBlock;
+import net.mcreator.themod.block.BlockOfNetheriteSlabBlock;
+import net.mcreator.themod.block.BlockOfNetheritePresurePlateBlock;
+import net.mcreator.themod.block.BlockOfNetheriteFenceGateBlock;
+import net.mcreator.themod.block.BlockOfNetheriteFenceBlock;
+import net.mcreator.themod.block.BlockOfNetheriteButtonBlock;
 import net.mcreator.themod.ThemodMod;
 
 public class ThemodModBlocks {
@@ -30,6 +37,20 @@ public class ThemodModBlocks {
 	public static final RegistryObject<Block> BUTTERCUP = REGISTRY.register("buttercup", () -> new ButtercupBlock());
 	public static final RegistryObject<Block> OPENING_PAEONIA = REGISTRY.register("opening_paeonia", () -> new OpeningPaeoniaBlock());
 	public static final RegistryObject<Block> PINK_DAISY = REGISTRY.register("pink_daisy", () -> new PinkDaisyBlock());
+	public static final RegistryObject<Block> BLOCK_OF_NETHERITE_STAIRS = REGISTRY.register("block_of_netherite_stairs",
+			() -> new BlockOfNetheriteStairsBlock());
+	public static final RegistryObject<Block> BLOCK_OF_NETHERITE_SLAB = REGISTRY.register("block_of_netherite_slab",
+			() -> new BlockOfNetheriteSlabBlock());
+	public static final RegistryObject<Block> BLOCK_OF_NETHERITE_WALL = REGISTRY.register("block_of_netherite_wall",
+			() -> new BlockOfNetheriteWallBlock());
+	public static final RegistryObject<Block> BLOCK_OF_NETHERITE_FENCE = REGISTRY.register("block_of_netherite_fence",
+			() -> new BlockOfNetheriteFenceBlock());
+	public static final RegistryObject<Block> BLOCK_OF_NETHERITE_FENCE_GATE = REGISTRY.register("block_of_netherite_fence_gate",
+			() -> new BlockOfNetheriteFenceGateBlock());
+	public static final RegistryObject<Block> BLOCK_OF_NETHERITE_PRESURE_PLATE = REGISTRY.register("block_of_netherite_presure_plate",
+			() -> new BlockOfNetheritePresurePlateBlock());
+	public static final RegistryObject<Block> BLOCK_OF_NETHERITE_BUTTON = REGISTRY.register("block_of_netherite_button",
+			() -> new BlockOfNetheriteButtonBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -41,6 +62,11 @@ public class ThemodModBlocks {
 			ButtercupBlock.registerRenderLayer();
 			OpeningPaeoniaBlock.registerRenderLayer();
 			PinkDaisyBlock.registerRenderLayer();
+			BlockOfNetheriteWallBlock.registerRenderLayer();
+			BlockOfNetheriteFenceBlock.registerRenderLayer();
+			BlockOfNetheriteFenceGateBlock.registerRenderLayer();
+			BlockOfNetheritePresurePlateBlock.registerRenderLayer();
+			BlockOfNetheriteButtonBlock.registerRenderLayer();
 		}
 	}
 }

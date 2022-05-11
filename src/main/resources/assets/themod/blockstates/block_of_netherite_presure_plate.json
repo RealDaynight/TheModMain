@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "themod:block/block_of_netherite_presure_plate"
+    },
+    "powered=true": {
+      "model": "themod:block/block_of_netherite_presure_plate_down"
+    }
+  }
+}

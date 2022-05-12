@@ -111,6 +111,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_button"
+    },
+    {
+      "name": "BlockOfNetheriteStairsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_netherite_stairs_recipe"
+    },
+    {
+      "name": "BlockOfNetheriteSlabRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_netherite_slab_recipe"
+    },
+    {
+      "name": "BlockOfNetheritePresurePlateRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_netherite_presure_plate_recipe"
+    },
+    {
+      "name": "BlockOfNetheriteButtonRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_netherite_button_recipe"
     }
   ],
   "variable_elements": [],

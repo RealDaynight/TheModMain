@@ -18,6 +18,7 @@ import net.mcreator.themod.block.RedRoseBlock;
 import net.mcreator.themod.block.PinkDaisyBlock;
 import net.mcreator.themod.block.PaeoniaBlock;
 import net.mcreator.themod.block.OpeningPaeoniaBlock;
+import net.mcreator.themod.block.DryedDirtBlock;
 import net.mcreator.themod.block.ButtercupBlock;
 import net.mcreator.themod.block.BlueRoseBlock;
 import net.mcreator.themod.block.BlockOfNetheriteWallBlock;
@@ -51,6 +52,7 @@ public class ThemodModBlocks {
 			() -> new BlockOfNetheritePresurePlateBlock());
 	public static final RegistryObject<Block> BLOCK_OF_NETHERITE_BUTTON = REGISTRY.register("block_of_netherite_button",
 			() -> new BlockOfNetheriteButtonBlock());
+	public static final RegistryObject<Block> DRYED_DIRT = REGISTRY.register("dryed_dirt", () -> new DryedDirtBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

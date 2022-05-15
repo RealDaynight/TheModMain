@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "themod:blocks/drieddirt",
+    "up": "themod:blocks/drieddirt",
+    "north": "themod:blocks/drieddirt",
+    "east": "themod:blocks/drieddirt",
+    "south": "themod:blocks/drieddirt",
+    "west": "themod:blocks/drieddirt",
+    "particle": "themod:blocks/drieddirt"
+  }
+}

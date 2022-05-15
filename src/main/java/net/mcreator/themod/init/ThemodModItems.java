@@ -35,6 +35,7 @@ public class ThemodModItems {
 			ThemodModTabs.TAB_ENHANCEMENTS);
 	public static final RegistryObject<Item> BLOCK_OF_NETHERITE_BUTTON = block(ThemodModBlocks.BLOCK_OF_NETHERITE_BUTTON,
 			ThemodModTabs.TAB_ENHANCEMENTS);
+	public static final RegistryObject<Item> DRYED_DIRT = block(ThemodModBlocks.DRYED_DIRT, ThemodModTabs.TAB_ENHANCEMENTS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

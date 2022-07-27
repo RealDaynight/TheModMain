@@ -151,6 +151,70 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dryed_dirt"
+    },
+    {
+      "name": "Website",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "website",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SapphireMC",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_mc"
+    },
+    {
+      "name": "MenuCommandExecuted",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menu_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Menu",
+      "type": "command",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menu"
     }
   ],
   "variable_elements": [],

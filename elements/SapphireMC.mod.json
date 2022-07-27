@@ -1,0 +1,49 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 242,
+    "height": 194,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Sapphire MC Pack",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Sapphire MC Pack",
+          "x": 98,
+          "y": 27
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Sapphire MC Website",
+          "onClick": {
+            "name": "Website"
+          },
+          "width": 124,
+          "height": 20,
+          "name": "Sapphire MC Website",
+          "x": 152,
+          "y": 189
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 14,
+      "oy": 17,
+      "snapOnGrid": true
+    }
+  }
+}

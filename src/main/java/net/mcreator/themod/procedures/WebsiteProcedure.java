@@ -13,7 +13,7 @@ public class WebsiteProcedure {
 		if (entity instanceof Player _player && !_player.level.isClientSide())
 			_player.displayClientMessage(new TextComponent("Our Website:"), (false));
 		if (entity instanceof Player _player && !_player.level.isClientSide())
-			_player.displayClientMessage(new TextComponent("SapphireMC.xyz"), (false));
+			_player.displayClientMessage(new TextComponent("https://sapphiremc.xyz/"), (false));
 		if (entity instanceof Player _player && !_player.level.isClientSide())
 			_player.displayClientMessage(new TextComponent("---<>------<--->------<>---"), (false));
 	}

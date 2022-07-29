@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "uncommon_adventure_chest"
+      },
+      "name": "default"
+    }
+  }
+}

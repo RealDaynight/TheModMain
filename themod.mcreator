@@ -215,6 +215,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "menu"
+    },
+    {
+      "name": "CommonAdventureChest",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "common_adventure_chest"
+    },
+    {
+      "name": "RareAdventureChest",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_adventure_chest"
+    },
+    {
+      "name": "UncommonAdventureChest",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncommon_adventure_chest"
     }
   ],
   "variable_elements": [],
@@ -224,14 +248,17 @@
       "block.themod.buttercup": "Buttercup",
       "block.themod.block_of_netherite_stairs": "Block Of Netherite Stairs",
       "block.themod.block_of_netherite_slab": "Block Of Netherite Slab",
+      "block.themod.uncommon_adventure_chest": "Uncommon Adventure Chest",
       "block.themod.opening_paeonia": "Opening Paeonia",
       "block.themod.paeonia": "Paeonia",
       "block.themod.block_of_netherite_fence_gate": "Block Of Netherite Fence Gate",
       "block.themod.dryed_dirt": "Dryed Dirt",
       "block.themod.blue_rose": "Blue Rose",
       "block.themod.block_of_netherite_fence": "Block Of Netherite Fence",
+      "block.themod.rare_adventure_chest": "Rare Adventure Chest",
       "block.themod.block_of_netherite_presure_plate": "Block Of Netherite Presure Plate",
       "block.themod.block_of_netherite_wall": "Block Of Netherite Wall",
+      "block.themod.common_adventure_chest": "Common Adventure Chest",
       "block.themod.pink_daisy": "Pink Daisy",
       "block.themod.red_rose": "Red Rose",
       "block.themod.block_of_netherite_button": "Block Of Netherite Button",
@@ -259,5 +286,5 @@
     "modElementsPackage": "net.mcreator.themod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200119518
+  "mcreatorVersion": 202200120510
 }

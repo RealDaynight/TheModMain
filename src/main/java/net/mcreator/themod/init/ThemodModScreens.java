@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.themod.client.gui.SapphireMCScreen;
+import net.mcreator.themod.client.gui.AdventureChestGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ThemodModScreens {
@@ -19,6 +20,7 @@ public class ThemodModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ThemodModMenus.SAPPHIRE_MC, SapphireMCScreen::new);
+			MenuScreens.register(ThemodModMenus.ADVENTURE_CHEST_GUI, AdventureChestGUIScreen::new);
 		});
 	}
 }

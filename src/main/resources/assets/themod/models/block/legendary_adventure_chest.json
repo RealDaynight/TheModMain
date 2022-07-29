@@ -1,0 +1,8 @@
+{
+  "parent": "themod:custom/mc_earth_legendary_chest",
+  "textures": {
+    "all": "themod:blocks/legendary_adventure_chest",
+    "particle": "themod:blocks/legendary_adventure_chest",
+    "0": "themod:blocks/legendary_adventure_chest"
+  }
+}

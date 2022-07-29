@@ -3,7 +3,7 @@
     {
       "name": "Paeonia",
       "type": "plant",
-      "sortid": 3,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paeonia"
@@ -11,7 +11,7 @@
     {
       "name": "RedRose",
       "type": "plant",
-      "sortid": 4,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_rose"
@@ -19,7 +19,7 @@
     {
       "name": "BlueRose",
       "type": "plant",
-      "sortid": 5,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_rose"
@@ -27,7 +27,7 @@
     {
       "name": "Buttercup",
       "type": "plant",
-      "sortid": 6,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buttercup"
@@ -35,7 +35,7 @@
     {
       "name": "OpeningPaeonia",
       "type": "plant",
-      "sortid": 7,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "opening_paeonia"
@@ -43,7 +43,7 @@
     {
       "name": "PinkDaisy",
       "type": "plant",
-      "sortid": 8,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_daisy"
@@ -51,7 +51,7 @@
     {
       "name": "Enhancements",
       "type": "tab",
-      "sortid": 9,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enhancements"
@@ -59,7 +59,7 @@
     {
       "name": "BlockOfNetheriteStairs",
       "type": "block",
-      "sortid": 9,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_stairs"
@@ -67,7 +67,7 @@
     {
       "name": "BlockOfNetheriteSlab",
       "type": "block",
-      "sortid": 10,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_slab"
@@ -75,7 +75,7 @@
     {
       "name": "BlockOfNetheriteWall",
       "type": "block",
-      "sortid": 11,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_wall"
@@ -83,7 +83,7 @@
     {
       "name": "BlockOfNetheriteFence",
       "type": "block",
-      "sortid": 12,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_fence"
@@ -91,7 +91,7 @@
     {
       "name": "BlockOfNetheriteFenceGate",
       "type": "block",
-      "sortid": 13,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_fence_gate"
@@ -99,7 +99,7 @@
     {
       "name": "BlockOfNetheritePresurePlate",
       "type": "block",
-      "sortid": 14,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_presure_plate"
@@ -107,7 +107,7 @@
     {
       "name": "BlockOfNetheriteButton",
       "type": "block",
-      "sortid": 15,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_button"
@@ -115,7 +115,7 @@
     {
       "name": "BlockOfNetheriteStairsRecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_stairs_recipe"
@@ -123,7 +123,7 @@
     {
       "name": "BlockOfNetheriteSlabRecipe",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_slab_recipe"
@@ -131,7 +131,7 @@
     {
       "name": "BlockOfNetheritePresurePlateRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_presure_plate_recipe"
@@ -139,7 +139,7 @@
     {
       "name": "BlockOfNetheriteButtonRecipe",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_netherite_button_recipe"
@@ -147,7 +147,7 @@
     {
       "name": "DryedDirt",
       "type": "block",
-      "sortid": 20,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dryed_dirt"
@@ -155,7 +155,7 @@
     {
       "name": "Website",
       "type": "procedure",
-      "sortid": 21,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "website",
@@ -171,7 +171,7 @@
     {
       "name": "SapphireMC",
       "type": "gui",
-      "sortid": 21,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_mc"
@@ -179,7 +179,7 @@
     {
       "name": "MenuCommandExecuted",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "menu_command_executed",
@@ -211,7 +211,7 @@
     {
       "name": "Menu",
       "type": "command",
-      "sortid": 22,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "menu"
@@ -219,7 +219,7 @@
     {
       "name": "CommonAdventureChest",
       "type": "block",
-      "sortid": 23,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "common_adventure_chest"
@@ -227,7 +227,7 @@
     {
       "name": "RareAdventureChest",
       "type": "block",
-      "sortid": 24,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rare_adventure_chest"
@@ -235,39 +235,226 @@
     {
       "name": "UncommonAdventureChest",
       "type": "block",
-      "sortid": 25,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uncommon_adventure_chest"
+    },
+    {
+      "name": "CommonAdventureChestClosed",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "common_adventure_chest_closed"
+    },
+    {
+      "name": "CommonAdventureChestClosedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "common_adventure_chest_closed_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdventureChestGUI",
+      "type": "gui",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_chest_gui"
+    },
+    {
+      "name": "DaynightHead",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daynight_head"
+    },
+    {
+      "name": "CommonLoot",
+      "type": "loottable",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "common_loot"
+    },
+    {
+      "name": "UncommonAdventureChestClosed",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncommon_adventure_chest_closed"
+    },
+    {
+      "name": "RightClickUncommonChest",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_click_uncommon_chest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RareAdventureChestClosed",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_adventure_chest_closed"
+    },
+    {
+      "name": "RightClickRareChest",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_click_rare_chest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LegendaryAdventureChest",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_adventure_chest"
+    },
+    {
+      "name": "LegendaryAdventureChestClosed",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_adventure_chest_closed"
+    },
+    {
+      "name": "RightClickLegendaryAdventureChest",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_click_legendary_adventure_chest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.themod.buttercup": "Buttercup",
       "block.themod.block_of_netherite_stairs": "Block Of Netherite Stairs",
+      "block.themod.buttercup": "Buttercup",
       "block.themod.block_of_netherite_slab": "Block Of Netherite Slab",
+      "block.themod.daynight_head": "Daynight Head",
+      "block.themod.blue_rose": "Blue Rose",
+      "block.themod.rare_adventure_chest": "Rare Adventure Chest",
+      "block.themod.block_of_netherite_presure_plate": "Block Of Netherite Presure Plate",
+      "block.themod.pink_daisy": "Pink Daisy",
+      "itemGroup.tabenhancements": "Enhancements",
+      "block.themod.common_adventure_chest_closed": "Common Adventure Chest Closed",
       "block.themod.uncommon_adventure_chest": "Uncommon Adventure Chest",
       "block.themod.opening_paeonia": "Opening Paeonia",
       "block.themod.paeonia": "Paeonia",
       "block.themod.block_of_netherite_fence_gate": "Block Of Netherite Fence Gate",
       "block.themod.dryed_dirt": "Dryed Dirt",
-      "block.themod.blue_rose": "Blue Rose",
       "block.themod.block_of_netherite_fence": "Block Of Netherite Fence",
-      "block.themod.rare_adventure_chest": "Rare Adventure Chest",
-      "block.themod.block_of_netherite_presure_plate": "Block Of Netherite Presure Plate",
+      "block.themod.legendary_adventure_chest_closed": "Legendary Adventure Chest Closed",
+      "block.themod.rare_adventure_chest_closed": "Rare Adventure Chest Closed",
+      "block.themod.legendary_adventure_chest": "Legendary Adventure Chest",
       "block.themod.block_of_netherite_wall": "Block Of Netherite Wall",
       "block.themod.common_adventure_chest": "Common Adventure Chest",
-      "block.themod.pink_daisy": "Pink Daisy",
+      "block.themod.uncommon_adventure_chest_closed": "Uncommon Adventure Chest Closed",
       "block.themod.red_rose": "Red Rose",
-      "block.themod.block_of_netherite_button": "Block Of Netherite Button",
-      "itemGroup.tabenhancements": "Enhancements"
+      "block.themod.block_of_netherite_button": "Block Of Netherite Button"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "test",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "themod",

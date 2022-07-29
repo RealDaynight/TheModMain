@@ -30,6 +30,7 @@ import net.mcreator.themod.init.ThemodModTabs;
 import net.mcreator.themod.init.ThemodModItems;
 import net.mcreator.themod.init.ThemodModFeatures;
 import net.mcreator.themod.init.ThemodModBlocks;
+import net.mcreator.themod.init.ThemodModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,6 +51,7 @@ public class ThemodMod {
 		ThemodModBlocks.REGISTRY.register(bus);
 		ThemodModItems.REGISTRY.register(bus);
 
+		ThemodModBlockEntities.REGISTRY.register(bus);
 		ThemodModFeatures.REGISTRY.register(bus);
 
 	}

@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "mc_earth_chest:default",
+    "customModelName": "common_adventure_chest:default",
     "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,

@@ -1,5 +1,5 @@
 {
-  "parent": "themod:custom/mc_earth_chest_2",
+  "parent": "themod:custom/rare_adventure_chest",
   "textures": {
     "all": "themod:blocks/rare_adventure_chest_",
     "particle": "themod:blocks/rare_adventure_chest_",

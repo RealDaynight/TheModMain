@@ -1,5 +1,5 @@
 {
-  "parent": "themod:custom/mc_earth_chest_closed_2",
+  "parent": "themod:custom/uncommon_adventure_chest_closed",
   "textures": {
     "all": "themod:blocks/uncommon_adventure_chest",
     "particle": "themod:blocks/uncommon_adventure_chest",

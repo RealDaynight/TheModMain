@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "epic_adventure_chest"
+      },
+      "name": "default"
+    }
+  }
+}

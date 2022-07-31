@@ -415,6 +415,50 @@
           }
         ]
       }
+    },
+    {
+      "name": "RightClickEpickAdventureChest",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_click_epick_adventure_chest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EpicAdventureChest",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_adventure_chest"
+    },
+    {
+      "name": "EpicAdventureChestClosed",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_adventure_chest_closed"
     }
   ],
   "variable_elements": [],
@@ -425,9 +469,11 @@
       "block.themod.buttercup": "Buttercup",
       "block.themod.block_of_netherite_slab": "Block Of Netherite Slab",
       "block.themod.daynight_head": "Daynight Head",
+      "block.themod.epic_adventure_chest_closed": "Epic Adventure Chest Closed",
       "block.themod.blue_rose": "Blue Rose",
       "block.themod.rare_adventure_chest": "Rare Adventure Chest",
       "block.themod.block_of_netherite_presure_plate": "Block Of Netherite Presure Plate",
+      "block.themod.epic_adventure_chest": "Epic Adventure Chest",
       "block.themod.pink_daisy": "Pink Daisy",
       "itemGroup.tabenhancements": "Enhancements",
       "block.themod.common_adventure_chest_closed": "Common Adventure Chest Closed",

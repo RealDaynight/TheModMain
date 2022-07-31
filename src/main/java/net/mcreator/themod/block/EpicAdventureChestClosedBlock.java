@@ -7,7 +7,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -19,7 +18,6 @@ import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.BlockAndTintGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -30,24 +28,19 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
-import net.mcreator.themod.procedures.RightClickRareChestProcedure;
+import net.mcreator.themod.procedures.RightClickEpickAdventureChestProcedure;
 import net.mcreator.themod.init.ThemodModBlocks;
 
 import java.util.List;
 import java.util.Collections;
 
-public class RareAdventureChestClosedBlock extends Block {
+public class EpicAdventureChestClosedBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public RareAdventureChestClosedBlock() {
+	public EpicAdventureChestClosedBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-	}
-
-	@Override
-	public boolean shouldDisplayFluidOverlay(BlockState state, BlockAndTintGetter world, BlockPos pos, FluidState fluidstate) {
-		return true;
 	}
 
 	@Override
@@ -98,12 +91,12 @@ public class RareAdventureChestClosedBlock extends Block {
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 
-		RightClickRareChestProcedure.execute(world, x, y, z);
+		RightClickEpickAdventureChestProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(ThemodModBlocks.RARE_ADVENTURE_CHEST_CLOSED.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(ThemodModBlocks.EPIC_ADVENTURE_CHEST_CLOSED.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

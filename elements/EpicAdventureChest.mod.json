@@ -2,14 +2,14 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "common_adventure_chest",
+    "texture": "epic_adventure_chest",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "common_adventure_chest_closed:default",
+    "customModelName": "epic_adventure_chest:default",
     "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Common Adventure Chest Closed",
+    "name": "Epic Adventure Chest",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -104,9 +104,9 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
+    "hasInventory": true,
+    "guiBoundTo": "AdventureChestGUI",
+    "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -121,9 +121,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "CommonAdventureChestClosedOnBlockRightClicked"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

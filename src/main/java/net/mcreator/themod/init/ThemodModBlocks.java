@@ -24,6 +24,8 @@ import net.mcreator.themod.block.PaeoniaBlock;
 import net.mcreator.themod.block.OpeningPaeoniaBlock;
 import net.mcreator.themod.block.LegendaryAdventureChestClosedBlock;
 import net.mcreator.themod.block.LegendaryAdventureChestBlock;
+import net.mcreator.themod.block.EpicAdventureChestClosedBlock;
+import net.mcreator.themod.block.EpicAdventureChestBlock;
 import net.mcreator.themod.block.DryedDirtBlock;
 import net.mcreator.themod.block.DaynightHeadBlock;
 import net.mcreator.themod.block.CommonAdventureChestClosedBlock;
@@ -45,23 +47,23 @@ public class ThemodModBlocks {
 			() -> new CommonAdventureChestClosedBlock());
 	public static final RegistryObject<Block> COMMON_ADVENTURE_CHEST = REGISTRY.register("common_adventure_chest",
 			() -> new CommonAdventureChestBlock());
-	public static final RegistryObject<Block> PAEONIA = REGISTRY.register("paeonia", () -> new PaeoniaBlock());
 	public static final RegistryObject<Block> UNCOMMON_ADVENTURE_CHEST_CLOSED = REGISTRY.register("uncommon_adventure_chest_closed",
 			() -> new UncommonAdventureChestClosedBlock());
-	public static final RegistryObject<Block> RED_ROSE = REGISTRY.register("red_rose", () -> new RedRoseBlock());
 	public static final RegistryObject<Block> UNCOMMON_ADVENTURE_CHEST = REGISTRY.register("uncommon_adventure_chest",
 			() -> new UncommonAdventureChestBlock());
-	public static final RegistryObject<Block> BLUE_ROSE = REGISTRY.register("blue_rose", () -> new BlueRoseBlock());
 	public static final RegistryObject<Block> RARE_ADVENTURE_CHEST_CLOSED = REGISTRY.register("rare_adventure_chest_closed",
 			() -> new RareAdventureChestClosedBlock());
-	public static final RegistryObject<Block> BUTTERCUP = REGISTRY.register("buttercup", () -> new ButtercupBlock());
 	public static final RegistryObject<Block> RARE_ADVENTURE_CHEST = REGISTRY.register("rare_adventure_chest", () -> new RareAdventureChestBlock());
-	public static final RegistryObject<Block> OPENING_PAEONIA = REGISTRY.register("opening_paeonia", () -> new OpeningPaeoniaBlock());
 	public static final RegistryObject<Block> LEGENDARY_ADVENTURE_CHEST_CLOSED = REGISTRY.register("legendary_adventure_chest_closed",
 			() -> new LegendaryAdventureChestClosedBlock());
-	public static final RegistryObject<Block> PINK_DAISY = REGISTRY.register("pink_daisy", () -> new PinkDaisyBlock());
 	public static final RegistryObject<Block> LEGENDARY_ADVENTURE_CHEST = REGISTRY.register("legendary_adventure_chest",
 			() -> new LegendaryAdventureChestBlock());
+	public static final RegistryObject<Block> PAEONIA = REGISTRY.register("paeonia", () -> new PaeoniaBlock());
+	public static final RegistryObject<Block> RED_ROSE = REGISTRY.register("red_rose", () -> new RedRoseBlock());
+	public static final RegistryObject<Block> BLUE_ROSE = REGISTRY.register("blue_rose", () -> new BlueRoseBlock());
+	public static final RegistryObject<Block> BUTTERCUP = REGISTRY.register("buttercup", () -> new ButtercupBlock());
+	public static final RegistryObject<Block> OPENING_PAEONIA = REGISTRY.register("opening_paeonia", () -> new OpeningPaeoniaBlock());
+	public static final RegistryObject<Block> PINK_DAISY = REGISTRY.register("pink_daisy", () -> new PinkDaisyBlock());
 	public static final RegistryObject<Block> BLOCK_OF_NETHERITE_STAIRS = REGISTRY.register("block_of_netherite_stairs",
 			() -> new BlockOfNetheriteStairsBlock());
 	public static final RegistryObject<Block> BLOCK_OF_NETHERITE_SLAB = REGISTRY.register("block_of_netherite_slab",
@@ -78,6 +80,9 @@ public class ThemodModBlocks {
 			() -> new BlockOfNetheriteButtonBlock());
 	public static final RegistryObject<Block> DRYED_DIRT = REGISTRY.register("dryed_dirt", () -> new DryedDirtBlock());
 	public static final RegistryObject<Block> DAYNIGHT_HEAD = REGISTRY.register("daynight_head", () -> new DaynightHeadBlock());
+	public static final RegistryObject<Block> EPIC_ADVENTURE_CHEST = REGISTRY.register("epic_adventure_chest", () -> new EpicAdventureChestBlock());
+	public static final RegistryObject<Block> EPIC_ADVENTURE_CHEST_CLOSED = REGISTRY.register("epic_adventure_chest_closed",
+			() -> new EpicAdventureChestClosedBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -85,24 +90,26 @@ public class ThemodModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			CommonAdventureChestClosedBlock.registerRenderLayer();
 			CommonAdventureChestBlock.registerRenderLayer();
-			PaeoniaBlock.registerRenderLayer();
 			UncommonAdventureChestClosedBlock.registerRenderLayer();
-			RedRoseBlock.registerRenderLayer();
 			UncommonAdventureChestBlock.registerRenderLayer();
-			BlueRoseBlock.registerRenderLayer();
 			RareAdventureChestClosedBlock.registerRenderLayer();
-			ButtercupBlock.registerRenderLayer();
 			RareAdventureChestBlock.registerRenderLayer();
-			OpeningPaeoniaBlock.registerRenderLayer();
 			LegendaryAdventureChestClosedBlock.registerRenderLayer();
-			PinkDaisyBlock.registerRenderLayer();
 			LegendaryAdventureChestBlock.registerRenderLayer();
+			PaeoniaBlock.registerRenderLayer();
+			RedRoseBlock.registerRenderLayer();
+			BlueRoseBlock.registerRenderLayer();
+			ButtercupBlock.registerRenderLayer();
+			OpeningPaeoniaBlock.registerRenderLayer();
+			PinkDaisyBlock.registerRenderLayer();
 			BlockOfNetheriteWallBlock.registerRenderLayer();
 			BlockOfNetheriteFenceBlock.registerRenderLayer();
 			BlockOfNetheriteFenceGateBlock.registerRenderLayer();
 			BlockOfNetheritePresurePlateBlock.registerRenderLayer();
 			BlockOfNetheriteButtonBlock.registerRenderLayer();
 			DaynightHeadBlock.registerRenderLayer();
+			EpicAdventureChestBlock.registerRenderLayer();
+			EpicAdventureChestClosedBlock.registerRenderLayer();
 		}
 	}
 }

@@ -162,8 +162,20 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -465,8 +477,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.themod.block_of_netherite_stairs": "Block Of Netherite Stairs",
       "block.themod.buttercup": "Buttercup",
+      "block.themod.block_of_netherite_stairs": "Block Of Netherite Stairs",
       "block.themod.block_of_netherite_slab": "Block Of Netherite Slab",
       "block.themod.daynight_head": "Daynight Head",
       "block.themod.epic_adventure_chest_closed": "Epic Adventure Chest Closed",
@@ -495,12 +507,7 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": [
-      {
-        "name": "test",
-        "children": []
-      }
-    ]
+    "children": []
   },
   "workspaceSettings": {
     "modid": "themod",

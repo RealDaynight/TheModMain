@@ -75,31 +75,31 @@ public class AdventureChestGUIMenu extends AbstractContainerMenu implements Supp
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 24, 31) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 30) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 51, 31) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 52, 30) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 78, 31) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 30) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 105, 31) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 106, 30) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 132, 31) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 133, 30) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -107,9 +107,9 @@ public class AdventureChestGUIMenu extends AbstractContainerMenu implements Supp
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -1 + 8 + sj * 18, -19 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, -19 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, -1 + 8 + si * 18, -19 + 142));
+			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, -19 + 142));
 	}
 
 	@Override

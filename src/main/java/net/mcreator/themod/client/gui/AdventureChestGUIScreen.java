@@ -29,8 +29,8 @@ public class AdventureChestGUIScreen extends AbstractContainerScreen<AdventureCh
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 174;
-		this.imageHeight = 122;
+		this.imageWidth = 176;
+		this.imageHeight = 121;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("themod:textures/adventure_chest_gui.png");
@@ -68,7 +68,7 @@ public class AdventureChestGUIScreen extends AbstractContainerScreen<AdventureCh
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Here Are Your Rewards", 32, 12, -13421773);
+		this.font.draw(poseStack, "Here Are Your Rewards", 33, 11, -13421773);
 	}
 
 	@Override

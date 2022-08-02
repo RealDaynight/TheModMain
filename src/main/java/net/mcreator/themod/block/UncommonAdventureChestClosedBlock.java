@@ -23,14 +23,17 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.Minecraft;
 
 import net.mcreator.themod.procedures.RightClickUncommonChestProcedure;
 import net.mcreator.themod.init.ThemodModBlocks;
 
+import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
@@ -78,6 +81,22 @@ public class UncommonAdventureChestClosedBlock extends Block {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	@Override
+	public void animateTick(BlockState blockstate, Level world, BlockPos pos, Random random) {
+		super.animateTick(blockstate, world, pos, random);
+		Player entity = Minecraft.getInstance().player;
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		for (int l = 0; l < 5; ++l) {
+			double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 1D;
+			double y0 = y + 1.2 + (random.nextFloat() - 0.5) * 1D;
+			double z0 = z + 0.5 + (random.nextFloat() - 0.5) * 1D;
+			world.addParticle(ParticleTypes.HAPPY_VILLAGER, x0, y0, z0, 0, 0, 0);
+		}
 	}
 
 	@Override

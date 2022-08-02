@@ -64,7 +64,7 @@ public class SapphireMCButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			WebsiteProcedure.execute(entity);
+			WebsiteProcedure.execute(world, x, y, z);
 		}
 	}
 
